@@ -700,7 +700,7 @@ def MAIN():
 			def update():
 				a=input("Вы уверены, что хотите обновить? (y/n) ")
 				if a=="y":
-					os.system("cd && rm -rf buff && git clone https://github.com/waveleen/SMSBUFF && cd SMSBUFF && sh install.sh")
+					os.system("cd && rm -rf SMSBUFF && git clone https://github.com/waveleen/SMSBUFF && cd SMSBUFF && sh install.sh")
 					exit()
 				if a=="n":
 					exit()

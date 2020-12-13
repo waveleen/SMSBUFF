@@ -1,8 +1,9 @@
 #!/bin/bash
 clear
-echo "Выберите:"
-echo "1. Termux"
-echo "2. Другой Unix"
+echo "Выберите свое устройтсво:"
+echo "1) Termux"
+echo "2) Другой Unix"
+echo ""
 read numb
 if [ $numb = "1" ]
 then
@@ -11,7 +12,7 @@ then
 	pip install requests colorama proxyscrape
 	cp ~/SMSBUFF/spammer.py $PREFIX/bin/SMSBUFF
 	dos2unix $PREFIX/bin/SMSBUFF
-	chmod -R 777 ~/buff
+	chmod -R 777 ~/SMSBUFF
 	chmod 777 $PREFIX/bin/SMSBUFF
 	SMSBUFF
 else
@@ -27,7 +28,7 @@ else
 			cp ~/SMSBUFF/spammer.py $PREFIX/bin/SMSBUFF
 			dos2unix $RPEFIX/bin/SMSBUFF
 			chmod 777 $RPEFIX/bin/SMSBUFF
-			chmod -R 777 ~/buff
+			chmod -R 777 ~/SMSBUFF
 			SMSBUFF
 		fi
 	fi
