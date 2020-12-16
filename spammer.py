@@ -675,7 +675,7 @@ def MAIN():
 				os.system("cls" if os.name=="nt" else "clear")
 
 			def logo():
-				logo = r+"▒█▀▀▀█ ▒█▀▄▀█ ▒█▀▀▀█ 　 ▒█▀▀█ ▒█░▒█ ▒█▀▀▀ ▒█▀▀▀\n░▀▀▀▄▄ ▒█▒█▒█ ░▀▀▀▄▄ 　 ▒█▀▀▄ ▒█░▒█ ▒█▀▀▀ ▒█▀▀▀\n▒█▄▄▄█ ▒█░░▒█ ▒█▄▄▄█ 　 ▒█▄▄█ ░▀▄▄▀ ▒█    ▒█"+s
+				logo = r+"\n▒█▀▀▀█ ▒█▀▄▀█ ▒█▀▀▀█ 　 ▒█▀▀█ ▒█░▒█ ▒█▀▀▀ ▒█▀▀▀\n░▀▀▀▄▄ ▒█▒█▒█ ░▀▀▀▄▄ 　 ▒█▀▀▄ ▒█░▒█ ▒█▀▀▀ ▒█▀▀▀\n▒█▄▄▄█ ▒█░░▒█ ▒█▄▄▄█ 　 ▒█▄▄█ ░▀▄▄▀ ▒█    ▒█"+s
 				print(logo)
 
 			def replacement():
@@ -762,7 +762,7 @@ def MAIN():
 					
 					elif input1 == "exit":
 						exit()
-
+                                                clear()
 			main()
 		Main()	
 	except ModuleNotFoundError:
