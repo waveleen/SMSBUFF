@@ -762,7 +762,6 @@ def MAIN():
 					
 					elif input1 == "exit":
 						exit()
-                                                clear()
 			main()
 		Main()	
 	except ModuleNotFoundError:
